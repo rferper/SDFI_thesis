@@ -1,6 +1,6 @@
 # SDFI_thesis
 
-This repository contains the Python code regarding the experimental results of the PhD thesis "New characterizations of some families of fuzzy implication functions and their intersections. Applications to subgroup discovery" related to the subgroup discovery data mining technique. In particular, we provide an implementation of four different algorithms:
+This repository contains the Python code related to the experimental results of the PhD thesis "New characterizations of some families of fuzzy implication functions and their intersections. Applications to subgroup discovery" related to the subgroup discovery data mining technique. In particular, we provide an implementation of four different algorithms:
 
 - SDFIOE: A Top-k subgroup discovery algorithm based on fuzzy implication functions with an optimistic estimate pruning and an exhaustive search.
 - GSDFIW: A Top-k subgroup discovery algorithm based on fuzzy implication functions with a greedy search and a weighted covering algorithm.
