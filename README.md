@@ -7,7 +7,7 @@ This repository contains the Python code regarding the experimental results of t
 - WCSDFI: A weighted covering post-processing technique for subgroup discovery algorithms based on fuzzy implication functions.
 - STFI: An algorithm for searching sharp transitions based on fuzzy implication functions.
 
-In all algorithms, the IF-THEN rules of the corresponding subgroups/transitions are modeled as fuzzy rules by means of a t-norm and a fuzzy implication function.
+In all algorithms, the IF-THEN rules of the corresponding subgroups/transitions are modeled as fuzzy rules using a t-norm and a fuzzy implication function.
 
 The algorithms allow a custom selection of the fuzzy partitions and the fuzzy operators. Nonetheless, these specifications should be selected manually by the user. Some examples of this step are provided. Moreover, for an easier use of this code, there are available six different pairs of fuzzy implication function I and t-norm T, and three fuzzy partitioning methods (uniform, cmeans and fcm).
 
