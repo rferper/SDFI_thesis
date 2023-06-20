@@ -17,7 +17,7 @@ if __name__ == '__main__':
     dataset_target = dataset['Obama']
     random.seed(2021)
     # automatic fuzzy partition of features
-    fuzzy_dataset_features = fuzzy_data.FuzzyDataUniformTriangular('usa_features', dataset_features, 3, ['L', 'M', 'H'])
+    fuzzy_dataset_features = fuzzy_data.FuzzyDataFCM('usa_features', dataset_features, 3, ['L', 'M', 'H'])
     # custom fuzzy partition of target
     fv_list = []
     TFS1 = fuzzy_set.FuzzySet(membership_function.TrapezoidalMF(a=0, b=0, c=45, d=50), 'Republican')
